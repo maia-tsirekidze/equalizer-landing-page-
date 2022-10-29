@@ -1,0 +1,807 @@
+@media ( max-width:1300px){
+    .conteiner{
+        width: 100%;
+        height: 100vh;
+        background-image: url("./assets/bg-main-desktop.png");
+        background-position: top -10rem left 7rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .wraper-{
+        display: grid;    
+        grid-template-areas:  
+        " a b"
+        "d b";
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left: 8rem;
+        margin-top: 60px;
+        margin-bottom: 123px;
+    grid-area: a;
+    }
+    .imageslogo{
+        grid-area: b;
+    }
+    .textst{
+        
+        margin-left: 8rem;
+        grid-area: d;
+    }
+    .textst h1{
+        width: 80%;
+        font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    color: #191826;
+    padding-bottom: 20px;
+    
+    }
+    .textst p{
+        width: 63%;
+        font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #191826;
+    margin-bottom: 70px;
+    }
+    
+    
+    /* section */
+    .section-wraper{
+        width: 80%;
+        height: 70vh;
+        background-color: #191826;
+       
+        
+        margin:  10rem;
+        position: relative;
+        border-radius: 12px;
+    
+    }
+    
+    .bacgrouindimg{
+      width: 200px;
+     margin-left:25%;
+    
+    }
+    .mobile-img{
+        width: 280px;
+        height: 600px;
+        position: absolute;
+        top: -10rem;
+        left: 10%;
+        z-index: 1;
+    }
+    .mobile-img img{
+        width: 280px;
+        height: 600px;
+    }
+    .box-wraper{
+        width: 40%;
+        /* max-width: 100%; */
+        height: 500px;
+        background: #FA7453;
+         border-radius: 12px;
+         position: absolute;
+    left:57%;
+    top: 150px;
+    color: white;
+    z-index: 2;
+    }
+    
+    
+    
+    
+    .textone-{
+    width: 80%;
+    max-width:100% ;
+    margin: 5px auto;
+    padding-bottom: 10px;
+    }
+    .textone- h1{
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 3rem;
+        color: #FCFAF9;
+        }
+        .textone- p{
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.2rem;
+            color: #FCFAF9;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .dolari{
+            /* display: flex; */
+             vertical-align: middle;
+        }
+        .dolari p{
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1rem;
+            letter-spacing: -0.2px;
+            color: #FCFAF9;
+        }
+        .dolari p::before {
+            content: "$4";
+            vertical-align: middle;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 5rem;
+            line-height: 4rem;
+            color: #FCFAF9;
+            text-transform: uppercase;
+        }
+        .btn{
+            width: 80%;
+            height: 61px;
+            background: #191826;
+            border-radius: 12px;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: -0.18px;
+            color: #FCFAF9;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border:none;
+            cursor: pointer;
+            vertical-align: middle;
+            transition: all;
+    
+        }
+        .btn:hover{
+            background-color:#66E2DC;
+        }
+        .btn::before{
+            content: url("./assets/icon-apple.svg");
+           margin-right: 5px;
+            
+        } 
+        .bttn {
+            width: 80%;
+            height: 61px;
+            background: #FCFAF9;
+            border-radius:  12px ;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+           font-weight: 700;
+           font-size: 18px;
+            line-height: 32px;
+           text-align: center;
+          letter-spacing: -0.18px;
+           color: #191826;
+           border: none;
+           cursor: pointer;
+           vertical-align: middle;
+           transition: all;
+        }
+    .bttn::before{
+    content: url("./assets/icon-android.svg");
+    
+    }
+    .bttn:hover{
+        background-color:#FFB964;
+    }
+    /* footer */
+    .wraper-box{
+        margin-top: 26rem;
+        width: 100%;
+        height: 22vh;
+       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        flex-wrap: wrap;
+    }
+    .paradg{
+        width: 366px;
+        font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    }
+    .social{
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .face{
+        cursor: pointer;
+    transition: all;
+    }
+    .face:hover{
+        color:#FA7453;
+    }
+    .inst{
+        cursor: pointer;
+        transition: all;
+    }
+    .inst:hover{
+        color:#fa7453;
+    }
+    .twi{
+        cursor: pointer;
+        transition: all;
+    }
+    .twi:hover{
+        color:#FA7453
+    }
+   
+}
+@media (max-width: 1004px) {
+    .conteiner{
+        width: 100%;
+        height: 100vh;
+        background-image: url("./assets/bg-main-desktop.png");
+        background-position: top -10rem left 7rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .wraper-{
+        background-image: url("./assets/bg-pattern-1.svg");
+        background-repeat: no-repeat;
+        background-position:right -3rem top -1rem;
+        display: grid;    
+        grid-template-areas:  
+        " a b"
+        "d b";
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left: 5rem;
+        margin-top: 60px;
+        margin-bottom: 123px;
+    grid-area: a;
+    }
+    .imageslogo{
+        display: none;
+        /* grid-area: b; */
+       
+        
+        
+    }
+    .textst{
+        
+        margin-left: 5rem;
+        grid-area: d;
+    }
+    .textst h1{
+        width:50%;
+        font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    color: #191826;
+    padding-bottom: 20px;
+    
+    }
+    .textst p{
+        width: 50%;
+        font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #191826;
+    margin-bottom: 70px;
+    }
+    
+    
+    /* section */
+    .section-wraper{
+        width: 80%;
+        height: 70vh;
+        background-color: #191826;
+       
+        margin:  5rem;
+        position: relative;
+        border-radius: 12px;
+    
+    }
+    
+    .bacgrouindimg{
+      width: 200px;
+     margin-left:23%;
+    
+    }
+    .mobile-img{
+        width: 280px;
+        height: 600px;
+        position: absolute;
+        top: -9rem;
+        left: 10%;
+        z-index: 1;
+    }
+    .mobile-img img{
+        width: 280px;
+        height: 600px;
+    }
+    .box-wraper{
+        width: 60%;
+        /* max-width: 100%; */
+        height: 460px;
+        background: #FA7453;
+         border-radius: 12px;
+         position: absolute;
+    left:30%;
+    top: 150px;
+    color: white;
+    z-index: 2;
+    }
+    
+    
+    
+    
+    .textone-{
+    width: 80%;
+    max-width:100% ;
+    margin: 5px auto;
+    padding-bottom: 10px;
+    }
+    .textone- h1{
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: #FCFAF9;
+        }
+        .textone- p{
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1rem;
+            color: #FCFAF9;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .dolari{
+            /* display: flex; */
+             vertical-align: middle;
+        }
+        .dolari p{
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1rem;
+            letter-spacing: -0.2px;
+            color: #FCFAF9;
+        }
+        .dolari p::before {
+            content: "$4";
+            vertical-align: middle;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 5rem;
+            line-height: 4rem;
+            color: #FCFAF9;
+            text-transform: uppercase;
+            
+        }
+    
+        .btn{
+            width: 80%;
+            height: 61px;
+            background: #191826;
+            border-radius: 12px;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: -0.18px;
+            color: #FCFAF9;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border:none;
+            cursor: pointer;
+            vertical-align: middle;
+            transition: all;
+    
+        }
+        .btn:hover{
+            background-color:#66E2DC;
+        }
+        .btn::before{
+            content: url("./assets/icon-apple.svg");
+           margin-right: 5px;
+            
+        } 
+        .bttn {
+            width: 80%;
+            height: 61px;
+            background: #FCFAF9;
+            border-radius:  12px ;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+           font-weight: 700;
+           font-size: 18px;
+            line-height: 32px;
+           text-align: center;
+          letter-spacing: -0.18px;
+           color: #191826;
+           border: none;
+           cursor: pointer;
+           vertical-align: middle;
+           transition: all;
+        }
+    .bttn::before{
+    content: url("./assets/icon-android.svg");
+    
+    }
+    .bttn:hover{
+        background-color:#FFB964;
+    }
+    /* footer */
+    .wraper-one-{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 26rem ;
+        
+     }
+     .footerlogo img{
+        padding-bottom: 1rem;
+     }
+    .wraper-box{
+        display: none;
+        /* margin-top: 26rem;
+        width: 100%;
+        height: 22vh;
+       */
+        /* display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    
+        flex-wrap: wrap; */
+    }
+   
+    .paradg{
+       
+        width: 366px;
+        font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    }
+    .social{
+
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .face{
+        cursor: pointer;
+        transition: all;
+    }
+    .face:hover{
+        color:#FA7453;
+    }
+    .inst{
+        cursor: pointer;
+        transition: all;
+    }
+    .inst:hover{
+        color:#fa7453;
+    }
+    .twi{
+        cursor: pointer;
+        transition: all;
+    }
+    .twi:hover{
+        color:#FA7453
+    }
+    
+}
+@media (max-width: 649px){
+    .conteiner{
+        width: 100%;
+        height: 100vh;
+        background-image: url("./assets/bg-main-desktop.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .wraper-{
+         background-image: none;
+        display: block; 
+        
+    }
+    .logo{
+        margin-left: 5%;
+        margin-top: 60px;
+        margin-bottom: 2rem;
+       
+    }
+    .imageslogo{
+        display: none;
+        /* grid-area: b; */
+        
+    }
+    .textst{
+        margin-left: 5%;
+        width:100%;
+        
+    }
+    .textst h1{
+        width:80%;
+        font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -0.454545px;
+color: #191826;
+    padding-bottom: 20px;
+    
+    }
+    .textst p{
+        width: 80%;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #191826;
+    margin-bottom: 70px;
+    }
+    
+    
+    /* section */
+    .section-wraper{
+        width: 100%;
+        height: 70vh;
+        background-color: #191826;
+       
+        margin:  0 auto;
+        position: relative;
+        border-radius: 12px;
+    
+    }
+    
+    .bacgrouindimg{
+      width: 200px;
+     margin-left:23%;
+    
+    }
+    .mobile-img{
+        
+        position: absolute;
+        top: -6rem;
+        left: 20%;
+        z-index: 1;
+    }
+    .mobile-img img{
+        width: 200px;
+        height: 400px;
+    }
+    .box-wraper{
+        width: 100%;
+        /* max-width: 100%; */
+        height: 460px;
+        background: #FA7453;
+         border-radius: 12px;
+         
+         position: absolute;
+    left:0;
+    top: 70%;
+    color: white;
+    z-index: 2;
+    }
+    
+    
+    
+    
+    .textone-{
+    width: 80%;
+    max-width:100% ;
+    margin: 5px auto;
+    padding-bottom: 10px;
+    }
+    .textone- h1{
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: #FCFAF9;
+        }
+        .textone- p{
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1rem;
+            color: #FCFAF9;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .dolari{
+            /* display: flex; */
+             vertical-align: middle;
+        }
+        .dolari p{
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1rem;
+            letter-spacing: -0.2px;
+            color: #FCFAF9;
+        }
+        .dolari p::before {
+            content: "$4";
+            vertical-align: middle;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 5rem;
+            line-height: 4rem;
+            color: #FCFAF9;
+            text-transform: uppercase;
+            
+        }
+    
+        .btn{
+            width: 80%;
+            height: 61px;
+            background: #191826;
+            border-radius: 12px;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: -0.18px;
+            color: #FCFAF9;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border:none;
+            cursor: pointer;
+            vertical-align: middle;
+            transition: all;
+    
+        }
+        .btn:hover{
+            background-color:#66E2DC;
+        }
+        .btn::before{
+            content: url("./assets/icon-apple.svg");
+           margin-right: 5px;
+            
+        } 
+        .bttn {
+            width: 80%;
+            height: 61px;
+            background: #FCFAF9;
+            border-radius:  12px ;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+           font-weight: 700;
+           font-size: 18px;
+            line-height: 32px;
+           text-align: center;
+          letter-spacing: -0.18px;
+           color: #191826;
+           border: none;
+           cursor: pointer;
+           vertical-align: middle;
+           transition: all;
+        }
+    .bttn::before{
+    content: url("./assets/icon-android.svg");
+    
+    }
+    .bttn:hover{
+        background-color:#FFB964;
+    }
+    /* footer */
+    .wraper-one-{
+        display: none;
+        /* display: flex;
+        flex-direction:column; */
+        /* justify-content: space-around;
+        align-items: center; */
+        /* margin-top: 26rem ; */
+        
+     }
+     
+    .wraper-box{
+        width: 100%;
+        display: inline-block;
+        
+         margin-left: 5%;
+       
+        justify-content: center;
+        align-items: center;
+         margin-top: 26rem;
+        /* height: 22vh; */
+       
+        /* display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    
+        flex-wrap: wrap; */
+    }
+    .footerlogo img{
+        padding-bottom: 1rem;
+     }
+    .paradg{
+       
+        width: 366px;
+        font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    }
+    .social{
+        margin-top: 2rem;
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .face{
+        cursor: pointer;
+        transition: all;
+    }
+    .face:hover{
+        color:#FA7453;
+    }
+    .inst{
+        cursor: pointer;
+        transition: all;
+    }
+    .inst:hover{
+        color:#fa7453;
+    }
+    .twi{
+        cursor: pointer;
+        transition: all;
+    }
+    .twi:hover{
+        color:#FA7453
+    }
+}
